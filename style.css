@@ -1,0 +1,58 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: 0px;
+}
+
+.cal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    background-color: aliceblue;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.result {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 2.5rem;
+    text-align: right;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.button button {
+    padding: 20px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    transition: 0.2s all linear;
+}
+
+.button button:hover{
+    background-color: rgb(252, 123, 77);
+}
+
+.button button:active{
+    background-color: rgb(252, 123, 77, 0.4);
+}
+
+.equal {
+    background-color: teal;
+    grid-row: 5;
+    grid-column: 4;
+    color: aliceblue;
+}
+
+.clear {
+    background-color: brown;
+    grid-row: 1;
+    color: aliceblue;
+}
+
